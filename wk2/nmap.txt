@@ -1,0 +1,59 @@
+root@comp3134-Winter2024:~# nmap google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-22 21:08 UTC
+Nmap scan report for google.com (142.251.41.78)
+Host is up (0.0012s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:807::200e
+rDNS record for 142.251.41.78: yyz10s20-in-f14.1e100.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.90 seconds
+
+
+
+root@comp3134-Winter2024:~# nmap -p 80 youtube.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-22 21:09 UTC
+Nmap scan report for youtube.com (142.251.32.78)
+Host is up (0.0017s latency).
+Other addresses for youtube.com (not scanned): 2607:f8b0:400b:804::200e
+rDNS record for 142.251.32.78: yyz12s07-in-f14.1e100.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.07 seconds
+
+
+
+root@comp3134-Winter2024:~# nmap -p 80-443 facebook.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-22 21:10 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.0012s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 362 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.87 seconds
+
+
+root@comp3134-Winter2024:~# nmap -F georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-22 21:11 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.0087s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+Not shown: 97 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.31 seconds
+
+
+
+

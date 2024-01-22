@@ -1,0 +1,104 @@
+Youtube.com
+NameMarkMonitor, Inc.
+Whois Serverwhois.markmonitor.com
+Referral URLhttp://www.markmonitor.com
+StatusclientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Important Dates
+Expires On2025-02-15
+Registered On2005-02-15
+Updated On2024-01-14
+Name Servers
+ns1.google.com216.239.32.10
+ns2.google.com216.239.34.10
+ns3.google.com216.239.36.10
+ns4.google.com216.239.38.10
+
+Google.com
+NameMarkMonitor, Inc.
+Whois Serverwhois.markmonitor.com
+Referral URLhttp://www.markmonitor.com
+StatusclientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Important Dates
+Expires On2028-09-13
+Registered On1997-09-15
+Updated On2019-09-09
+Name Servers
+ns1.google.com216.239.32.10
+ns2.google.com216.239.34.10
+ns3.google.com216.239.36.10
+ns4.google.com216.239.38.10
+
+Outlook.com
+NameMarkMonitor, Inc.
+Whois Serverwhois.markmonitor.com
+Referral URLhttp://www.markmonitor.com
+StatusclientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Important Dates
+Expires On2024-08-17
+Registered On1994-08-18
+Updated On2023-07-16
+Name Servers
+ns1-38.azure-dns.com150.171.10.38
+ns2-38.azure-dns.net150.171.16.38
+ns3-38.azure-dns.org13.107.222.38
+ns4-38.azure-dns.info13.107.206.38
+nse12.o365filtering.com104.47.38.8
+nse13.o365filtering.com104.47.2.8
+nse21.o365filtering.com104.47.40.8
+nse24.o365filtering.com104.47.44.8
+
+Github.com
+NameMarkMonitor, Inc.
+Whois Serverwhois.markmonitor.com
+Referral URLhttp://www.markmonitor.com
+StatusclientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Important Dates
+Expires On2024-10-09
+Registered On2007-10-09
+Updated On2022-09-07
+Name Servers
+dns1.p08.nsone.net198.51.44.8
+dns2.p08.nsone.net198.51.45.8
+dns3.p08.nsone.net198.51.44.72
+dns4.p08.nsone.net198.51.45.72
+ns-1283.awsdns-32.org205.251.197.3
+ns-1707.awsdns-21.co.uk205.251.198.171
+ns-421.awsdns-52.com205.251.193.165
+ns-520.awsdns-01.net205.251.194.8
+
+Facebook.com
+NameRegistrarSafe, LLC
+Whois Serverwhois.registrarsafe.com
+Referral URLhttps://www.registrarsafe.com
+StatusclientDeleteProhibited https://www.icann.org/epp#clientDeleteProhibited
+clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited
+clientUpdateProhibited https://www.icann.org/epp#clientUpdateProhibited
+serverDeleteProhibited https://www.icann.org/epp#serverDeleteProhibited
+serverTransferProhibited https://www.icann.org/epp#serverTransferProhibited
+serverUpdateProhibited https://www.icann.org/epp#serverUpdateProhibited
+Important Dates
+Expires On2032-03-30
+Registered On1997-03-29
+Updated On2023-04-26
+Name Servers
+A.NS.FACEBOOK.COM129.134.30.12
+B.NS.FACEBOOK.COM129.134.31.12
+C.NS.FACEBOOK.COM185.89.218.12
+D.NS.FACEBOOK.COM185.89.219.12
