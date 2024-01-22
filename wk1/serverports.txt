@@ -1,0 +1,25 @@
+What is the definition of server port?
+- the logical endpoints of a network connection that is used to exchange information between a web server and a web client
+
+What is server port range?
+- Port numbers range from 0 to 65536, but only ports numbers 0 to 1024 are reserved for privileged services and designated as well-known ports. 
+IPv4 is of 32 bits (4 bytes) size and for IPv6 is 128 bits (16 bytes). The Port number is 16 bits numbers.
+Well-known ports range from 0 through 1023.
+Registered ports are 1024 to 49151.
+Dynamic ports (also called private ports) are 49152 to 65535
+
+How many bits does number above represent?
+- 32 and 128.
+
+State 10 common server ports
+- 
+1. 443 - HTTPS
+2. 156 - SQL Server
+3. 53 - DNS 
+4. 20 - FTP Data
+5. 80 - HTTP
+6. 118 - SQL Services
+7. 546 - DHCP Client
+8. 569 - MSN
+9. 22 - SSH Remote Login Protocol
+10. 23 - Telnet
