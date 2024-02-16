@@ -1,0 +1,6 @@
+root@emanuelko-droplet:~# ufw allow 2222/tcp
+Rule added
+Rule added (v6)
+
+ssh root@174.91.211.225 -p 2222
+
