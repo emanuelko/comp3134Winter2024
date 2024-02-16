@@ -1,0 +1,13 @@
+root@comp3134-Winter2024:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+00:15:19.476625 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 1246373517:1246373625, ack 2978329615, win 62744, length 108
+00:15:19.476759 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 108:264, ack 1, win 62744, length 156
+00:15:19.476817 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 264:332, ack 1, win 62744, length 68
+00:15:19.476881 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 332:368, ack 1, win 62744, length 36
+00:15:19.481437 IP bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210 > comp3134-Winter2024.ssh: Flags [.], ack 0, win 65160, options [nop,nop,sack 1 {108:264}], length 0
+00:15:19.481438 IP bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210 > comp3134-Winter2024.ssh: Flags [.], ack 264, win 64896, length 0
+00:15:19.481438 IP bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210 > comp3134-Winter2024.ssh: Flags [.], ack 264, win 64896, options [nop,nop,sack 1 {332:368}], length 0
+00:15:19.482390 IP bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210 > comp3134-Winter2024.ssh: Flags [.], ack 368, win 64792, length 0
+00:15:19.578941 IP comp3134-Winter2024.60464 > 67.207.67.2.domain: 44759+ [1au] PTR? 242.49.93.174.in-addr.arpa. (55)
+00:15:19.579089 IP comp3134-Winter2024.49117 > 67.207.67.2.domain: 34437+ [1au] PTR? 242.49.93.174.in-addr.arpa. (55)

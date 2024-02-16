@@ -1,0 +1,16 @@
+root@comp3134-Winter2024:~# tcpdump -n -c 10 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+00:26:48.893918 IP 159.203.2.211.22 > 174.93.49.242.61210: Flags [P.], seq 1262327801:1262327909, ack 2978349611, win 62744, length 108
+00:26:48.894095 IP 159.203.2.211.22 > 174.93.49.242.61210: Flags [P.], seq 108:196, ack 1, win 62744, length 88
+00:26:48.894176 IP 159.203.2.211.22 > 174.93.49.242.61210: Flags [P.], seq 196:264, ack 1, win 62744, length 68
+00:26:48.894254 IP 159.203.2.211.22 > 174.93.49.242.61210: Flags [P.], seq 264:332, ack 1, win 62744, length 68
+00:26:48.894332 IP 159.203.2.211.22 > 174.93.49.242.61210: Flags [P.], seq 332:368, ack 1, win 62744, length 36
+00:26:48.896519 IP 174.93.49.242.61210 > 159.203.2.211.22: Flags [.], ack 0, win 64464, options [nop,nop,sack 1 {108:196}], length 0
+00:26:48.896519 IP 174.93.49.242.61210 > 159.203.2.211.22: Flags [.], ack 196, win 64268, length 0
+00:26:48.896519 IP 174.93.49.242.61210 > 159.203.2.211.22: Flags [.], ack 196, win 64268, options [nop,nop,sack 1 {264:332}], length 0
+00:26:48.896519 IP 174.93.49.242.61210 > 159.203.2.211.22: Flags [.], ack 332, win 64132, length 0
+00:26:48.896519 IP 174.93.49.242.61210 > 159.203.2.211.22: Flags [.], ack 368, win 65472, length 0
+10 packets captured
+22 packets received by filter
+0 packets dropped by kernel

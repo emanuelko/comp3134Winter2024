@@ -1,0 +1,77 @@
+root@comp3134-Winter2024:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+00:24:16.125323 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 1262230237:1262230281, ack 2978344751, win 62744, length 44
+00:24:16.125396 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 44:96, ack 1, win 62744, length 52
+00:24:16.125454 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 96:164, ack 1, win 62744, length 68
+00:24:16.125529 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 164:232, ack 1, win 62744, length 68
+00:24:16.125650 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 232:268, ack 1, win 62744, length 36
+00:24:16.128913 IP bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210 > comp3134-Winter2024.ssh: Flags [.], ack 0, win 65348, options [nop,nop,sack 1 {44:96}], length 0
+00:24:16.128913 IP bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210 > comp3134-Winter2024.ssh: Flags [.], ack 0, win 65348, options [nop,nop,sack 1 {44:164}], length 0
+00:24:16.128913 IP bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210 > comp3134-Winter2024.ssh: Flags [.], ack 0, win 65348, options [nop,nop,sack 2 {232:268}{44:164}], length 0
+00:24:16.128913 IP bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210 > comp3134-Winter2024.ssh: Flags [.], ack 164, win 65184, options [nop,nop,sack 1 {232:268}], length 0
+00:24:16.128913 IP bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210 > comp3134-Winter2024.ssh: Flags [.], ack 268, win 65080, length 0
+00:24:26.283959 IP host-169.dedicated.vsys.host.35432 > comp3134-Winter2024.http: Flags [S], seq 752469242, win 29200, options [mss 1460,sackOK,TS val 3778513999 ecr 0,nop,wscale 7], length 0
+00:24:26.284036 IP comp3134-Winter2024.http > host-169.dedicated.vsys.host.35432: Flags [S.], seq 1671389124, ack 752469243, win 65160, options [mss 1460,sackOK,TS val 959452446 ecr 3778513999,nop,wscale 7], length 0
+00:24:26.407027 IP host-169.dedicated.vsys.host.35432 > comp3134-Winter2024.http: Flags [.], ack 1, win 229, options [nop,nop,TS val 3778514123 ecr 959452446], length 0
+00:24:26.716179 IP host-169.dedicated.vsys.host.35432 > comp3134-Winter2024.http: Flags [P.], seq 1:232, ack 1, win 229, options [nop,nop,TS val 3778514431 ecr 959452446], length 231: HTTP: GET /.env HTTP/1.1
+00:24:26.716252 IP comp3134-Winter2024.http > host-169.dedicated.vsys.host.35432: Flags [.], ack 232, win 508, options [nop,nop,TS val 959452879 ecr 3778514431], length 0
+00:24:26.716520 IP comp3134-Winter2024.http > host-169.dedicated.vsys.host.35432: Flags [P.], seq 1:493, ack 232, win 508, options [nop,nop,TS val 959452879 ecr 3778514431], length 492: HTTP: HTTP/1.1 404 Not Found
+00:24:26.839057 IP host-169.dedicated.vsys.host.35432 > comp3134-Winter2024.http: Flags [.], ack 493, win 237, options [nop,nop,TS val 3778514555 ecr 959452879], length 0
+00:24:27.884668 IP host-169.dedicated.vsys.host.35432 > comp3134-Winter2024.http: Flags [F.], seq 232, ack 493, win 237, options [nop,nop,TS val 3778515600 ecr 959452879], length 0
+00:24:27.884826 IP comp3134-Winter2024.http > host-169.dedicated.vsys.host.35432: Flags [F.], seq 493, ack 233, win 508, options [nop,nop,TS val 959454047 ecr 3778515600], length 0
+00:24:28.007431 IP host-169.dedicated.vsys.host.35432 > comp3134-Winter2024.http: Flags [.], ack 494, win 237, options [nop,nop,TS val 3778515723 ecr 959454047], length 0
+00:24:28.632022 IP host-169.dedicated.vsys.host.37428 > comp3134-Winter2024.http: Flags [S], seq 2737260374, win 29200, options [mss 1460,sackOK,TS val 3778516348 ecr 0,nop,wscale 7], length 0
+00:24:28.632107 IP comp3134-Winter2024.http > host-169.dedicated.vsys.host.37428: Flags [S.], seq 597335079, ack 2737260375, win 65160, options [mss 1460,sackOK,TS val 959454795 ecr 3778516348,nop,wscale 7], length 0
+00:24:28.754557 IP host-169.dedicated.vsys.host.37428 > comp3134-Winter2024.http: Flags [.], ack 1, win 229, options [nop,nop,TS val 3778516470 ecr 959454795], length 0
+00:24:29.303035 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [S], seq 1270171476, win 29200, options [mss 1460,sackOK,TS val 18578346 ecr 0,nop,wscale 7], length 0
+00:24:29.303110 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [S.], seq 777364502, ack 1270171477, win 65160, options [mss 1460,sackOK,TS val 1351673659 ecr 18578346,nop,wscale 7], length 0
+00:24:29.514291 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 18578399 ecr 1351673659], length 0
+00:24:29.514381 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [P.], seq 1:16, ack 1, win 229, options [nop,nop,TS val 18578399 ecr 1351673659], length 15: SSH: SSH-2.0-PUTTY
+00:24:29.514400 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [.], ack 16, win 509, options [nop,nop,TS val 1351673870 ecr 18578399], length 0
+00:24:29.528001 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [P.], seq 1:42, ack 16, win 509, options [nop,nop,TS val 1351673883 ecr 18578399], length 41: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6
+00:24:29.650539 IP host-169.dedicated.vsys.host.37428 > comp3134-Winter2024.http: Flags [P.], seq 1:298, ack 1, win 229, options [nop,nop,TS val 3778517366 ecr 959454795], length 297: HTTP: POST / HTTP/1.1
+00:24:29.650640 IP comp3134-Winter2024.http > host-169.dedicated.vsys.host.37428: Flags [.], ack 298, win 507, options [nop,nop,TS val 959455813 ecr 3778517366], length 0
+00:24:29.739189 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 18578455 ecr 1351673883], length 0
+00:24:29.739245 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [P.], seq 42:1154, ack 16, win 509, options [nop,nop,TS val 1351674095 ecr 18578455], length 1112
+00:24:29.739344 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [P.], seq 16:872, ack 42, win 229, options [nop,nop,TS val 18578455 ecr 1351673883], length 856
+00:24:29.780118 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [.], ack 872, win 503, options [nop,nop,TS val 1351674136 ecr 18578455], length 0
+00:24:29.989259 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [.], ack 1154, win 246, options [nop,nop,TS val 18578518 ecr 1351674095], length 0
+00:24:29.990897 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [P.], seq 872:952, ack 1154, win 246, options [nop,nop,TS val 18578518 ecr 1351674136], length 80
+00:24:29.990924 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [.], ack 952, win 503, options [nop,nop,TS val 1351674346 ecr 18578518], length 0
+00:24:29.992273 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [P.], seq 1154:1466, ack 952, win 503, options [nop,nop,TS val 1351674348 ecr 18578518], length 312
+00:24:30.203197 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [.], ack 1466, win 263, options [nop,nop,TS val 18578571 ecr 1351674348], length 0
+00:24:30.204810 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [P.], seq 952:968, ack 1466, win 263, options [nop,nop,TS val 18578571 ecr 1351674348], length 16
+00:24:30.248140 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [.], ack 968, win 503, options [nop,nop,TS val 1351674604 ecr 18578571], length 0
+00:24:30.294038 IP host-169.dedicated.vsys.host.37428 > comp3134-Winter2024.http: Flags [P.], seq 298:313, ack 1, win 229, options [nop,nop,TS val 3778518010 ecr 959455813], length 15: HTTP
+00:24:30.294086 IP comp3134-Winter2024.http > host-169.dedicated.vsys.host.37428: Flags [.], ack 313, win 507, options [nop,nop,TS val 959456457 ecr 3778518010], length 0
+00:24:30.294682 IP comp3134-Winter2024.http > host-169.dedicated.vsys.host.37428: Flags [P.], seq 1:2595, ack 313, win 507, options [nop,nop,TS val 959456457 ecr 3778518010], length 2594: HTTP: HTTP/1.1 200 OK
+00:24:30.417241 IP host-169.dedicated.vsys.host.37428 > comp3134-Winter2024.http: Flags [.], ack 2595, win 269, options [nop,nop,TS val 3778518133 ecr 959456457], length 0
+00:24:30.458948 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [P.], seq 968:1032, ack 1466, win 263, options [nop,nop,TS val 18578635 ecr 1351674604], length 64
+00:24:30.458997 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [.], ack 1032, win 503, options [nop,nop,TS val 1351674814 ecr 18578635], length 0
+00:24:30.459145 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [P.], seq 1466:1530, ack 1032, win 503, options [nop,nop,TS val 1351674815 ecr 18578635], length 64
+00:24:30.669885 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [P.], seq 1032:1112, ack 1530, win 263, options [nop,nop,TS val 18578688 ecr 1351674815], length 80
+00:24:30.676807 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [P.], seq 1530:1610, ack 1112, win 503, options [nop,nop,TS val 1351675032 ecr 18578688], length 80
+00:24:30.687704 IP host-169.dedicated.vsys.host.37428 > comp3134-Winter2024.http: Flags [F.], seq 313, ack 2595, win 269, options [nop,nop,TS val 3778518403 ecr 959456457], length 0
+00:24:30.687836 IP comp3134-Winter2024.http > host-169.dedicated.vsys.host.37428: Flags [F.], seq 2595, ack 314, win 507, options [nop,nop,TS val 959456850 ecr 3778518403], length 0
+00:24:30.810461 IP host-169.dedicated.vsys.host.37428 > comp3134-Winter2024.http: Flags [.], ack 2596, win 269, options [nop,nop,TS val 3778518526 ecr 959456850], length 0
+00:24:30.887922 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [P.], seq 1112:1208, ack 1610, win 263, options [nop,nop,TS val 18578742 ecr 1351675032], length 96
+00:24:30.928105 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [.], ack 1208, win 503, options [nop,nop,TS val 1351675284 ecr 18578742], length 0
+00:24:34.263995 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [P.], seq 1610:1690, ack 1208, win 503, options [nop,nop,TS val 1351678619 ecr 18578742], length 80
+00:24:34.475052 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [P.], seq 1208:1304, ack 1690, win 263, options [nop,nop,TS val 18579639 ecr 1351678619], length 96
+00:24:34.475106 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [.], ack 1304, win 503, options [nop,nop,TS val 1351678831 ecr 18579639], length 0
+00:24:37.851200 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [P.], seq 1690:1770, ack 1304, win 503, options [nop,nop,TS val 1351682207 ecr 18579639], length 80
+00:24:38.062257 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [P.], seq 1304:1400, ack 1770, win 263, options [nop,nop,TS val 18580536 ecr 1351682207], length 96
+00:24:38.062312 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [.], ack 1400, win 503, options [nop,nop,TS val 1351682418 ecr 18580536], length 0
+00:24:38.631385 IP 95.214.53.118.34149 > comp3134-Winter2024.2375: Flags [S], seq 1917318138, win 65535, length 0
+00:24:41.438375 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [P.], seq 1770:1850, ack 1400, win 503, options [nop,nop,TS val 1351685794 ecr 18580536], length 80
+00:24:41.649193 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [P.], seq 1400:1464, ack 1850, win 263, options [nop,nop,TS val 18581432 ecr 1351685794], length 64
+00:24:41.649247 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [.], ack 1464, win 503, options [nop,nop,TS val 1351686005 ecr 18581432], length 0
+00:24:41.649282 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [F.], seq 1464, ack 1850, win 263, options [nop,nop,TS val 18581433 ecr 1351685794], length 0
+00:24:41.650937 IP comp3134-Winter2024.ssh > 180.101.88.249.18540: Flags [F.], seq 1850, ack 1465, win 503, options [nop,nop,TS val 1351686006 ecr 18581433], length 0
+00:24:41.861690 IP 180.101.88.249.18540 > comp3134-Winter2024.ssh: Flags [.], ack 1851, win 263, options [nop,nop,TS val 18581486 ecr 1351686006], length 0
+00:24:53.142610 IP ns2.zmar.eu > comp3134-Winter2024: ICMP echo request, id 1680, seq 40523, length 16
+00:24:53.142672 IP comp3134-Winter2024 > ns2.zmar.eu: ICMP echo reply, id 1680, seq 40523, length 16
+00:24:56.843314 IP 31.41.244.88.56444 > comp3134-Winter2024.61690: Flags [S], seq 261061502, win 1025, options [mss 1460], length 0
+00:24:58.471572 IP bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210 > comp3134-Winter2024.ssh: Flags [P.], seq 1:37, ack 268, win 65080, length 36
+00:24:58.471871 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 268:304, ack 37, win 62744, length 36
+00:24:58.532171 IP bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210 > comp3134-Winter2024.ssh: Flags [.], ack 304, win 65044, length 0

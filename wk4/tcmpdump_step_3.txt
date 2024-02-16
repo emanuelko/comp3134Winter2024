@@ -1,0 +1,17 @@
+root@comp3134-Winter2024:~# tcpdump -A -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+00:21:43.945575 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 1250699173:1250699225, ack 2978335147, win 62744, length 52
+E..\).@.@........]1.....J.'.....P....<..9,.E...7.D'.    ...c.......6\..q7]H.....s...=......xa..
+00:21:43.947313 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 52:160, ack 1, win 62744, length 108
+E...).@.@........]1.....J.'.....P....t..V5| ...(V.L.{..l....W.a`Yy...@..q%...T.m.SB...
+.r:.q.L.....|cK...IJ.:...7 ....G..5......K[2n......f9.TU.@X.H
+00:21:43.947421 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 160:316, ack 1, win 62744, length 156
+E...).@.@........]1.....J.(E....P........jj......B...;..........K........o....Bo.W.\..2..............^O.......B..7...n.......o#Vn..CFp...X..G...x.3>./ k.KuJ...K.~.....6......a.u.........R...Zll...
+00:21:43.947477 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 316:384, ack 1, win 62744, length 68
+E..l).@.@........]1.....J.(.....P....L..w.D.#...8.o?`..q...k.u..!...    ...3..g.i.....l&XzE...c....._]c.<v...4]
+00:21:43.947530 IP comp3134-Winter2024.ssh > bras-base-toroon0964w-grc-66-174-93-49-242.dsl.bell.ca.61210: Flags [P.], seq 384:420, ack 1, win 62744, length 36
+E..L).@.@..!.....]1.....J.)%....P....,.. [....=ML.!8.Z  ...S%J..+}n......3n..
+5 packets captured
+31 packets received by filter
+0 packets dropped by kernel
